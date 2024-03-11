@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sales_dev
+    database: sales
+    tables:
+      - name: customer
+      - name: product
+      - name: stock
+      - name: transaction
+    
